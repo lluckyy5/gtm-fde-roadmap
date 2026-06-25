@@ -63,11 +63,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mainline - Modern Next.js Template",
-    template: "%s | Mainline",
+    default: "GTM Engineer + Forward Deployed Engineer — Spoonfed Roadmap",
+    template: "%s | Roadmap",
   },
   description:
-    "A modern Next.js template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
+    "A 6-month career roadmap for Ankit Vishwakarma — from Senior Software Engineer (APM/Observability) to GTM Engineer and Forward Deployed Engineer. Certify, Build, Position, Outreach.",
   keywords: [
     "Next.js",
     "nextjs template",

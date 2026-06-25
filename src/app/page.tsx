@@ -1,25 +1,27 @@
 import { Background } from "@/components/background";
-import { FAQ } from "@/components/blocks/faq";
-import { Features } from "@/components/blocks/features";
-import { Hero } from "@/components/blocks/hero";
-import { Logos } from "@/components/blocks/logos";
-import { Pricing } from "@/components/blocks/pricing";
-import { ResourceAllocation } from "@/components/blocks/resource-allocation";
-import { Testimonials } from "@/components/blocks/testimonials";
+import { RoadmapHero } from "@/components/blocks/roadmap-hero";
+import { RoadmapTracks } from "@/components/blocks/roadmap-tracks";
+import { RoadmapReality } from "@/components/blocks/roadmap-reality";
+import { RoadmapRoles } from "@/components/blocks/roadmap-roles";
+import { RoadmapCerts } from "@/components/blocks/roadmap-certs";
+import { RoadmapBuild } from "@/components/blocks/roadmap-build";
+import { RoadmapTimeline } from "@/components/blocks/roadmap-timeline";
+import { RoadmapCTA } from "@/components/blocks/roadmap-cta";
 
 export default function Home() {
   return (
     <>
       <Background className="via-muted to-muted/80">
-        <Hero />
-        <Logos />
-        <Features />
-        <ResourceAllocation />
+        <RoadmapHero />
+        <RoadmapTracks />
       </Background>
-      <Testimonials />
+      <RoadmapReality />
+      <RoadmapRoles />
+      <RoadmapCerts />
+      <RoadmapBuild />
+      <RoadmapTimeline />
       <Background variant="bottom">
-        <Pricing />
-        <FAQ />
+        <RoadmapCTA />
       </Background>
     </>
   );
