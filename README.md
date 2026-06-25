@@ -1,5 +1,7 @@
 # GTM Engineer + Forward Deployed Engineer — Spoonfed Roadmap
 
+**Live site → [gtm-fde-roadmap.vercel.app](https://gtm-fde-roadmap.vercel.app)**
+
 A personal career roadmap landing page for **Ankit Vishwakarma** — Senior Software Engineer (APM/Observability) at illumifin — charting a 6-month path to GTM Engineer and Forward Deployed Engineer roles in the AI-native product space.
 
 Built with **Next.js 15 + shadcn/ui + Tailwind CSS v4 + Framer Motion**.
