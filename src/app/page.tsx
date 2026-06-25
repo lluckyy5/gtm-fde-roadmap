@@ -1,12 +1,12 @@
 import { Background } from "@/components/background";
+import { RoadmapBuild } from "@/components/blocks/roadmap-build";
+import { RoadmapCerts } from "@/components/blocks/roadmap-certs";
+import { RoadmapCTA } from "@/components/blocks/roadmap-cta";
 import { RoadmapHero } from "@/components/blocks/roadmap-hero";
-import { RoadmapTracks } from "@/components/blocks/roadmap-tracks";
 import { RoadmapReality } from "@/components/blocks/roadmap-reality";
 import { RoadmapRoles } from "@/components/blocks/roadmap-roles";
-import { RoadmapCerts } from "@/components/blocks/roadmap-certs";
-import { RoadmapBuild } from "@/components/blocks/roadmap-build";
 import { RoadmapTimeline } from "@/components/blocks/roadmap-timeline";
-import { RoadmapCTA } from "@/components/blocks/roadmap-cta";
+import { RoadmapTracks } from "@/components/blocks/roadmap-tracks";
 
 export default function Home() {
   return (

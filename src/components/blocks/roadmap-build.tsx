@@ -1,10 +1,12 @@
 "use client";
 
 import { useState } from "react";
+
 import { ChevronDown } from "lucide-react";
 import { motion } from "motion/react";
-import { Card, CardContent } from "@/components/ui/card";
+
 import { DashedLine } from "@/components/dashed-line";
+import { Card, CardContent } from "@/components/ui/card";
 
 const projects = [
   {
