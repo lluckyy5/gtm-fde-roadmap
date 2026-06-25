@@ -1,8 +1,8 @@
 "use client";
 
 import type React from "react";
-
 import { useRef, useState } from "react";
+
 import { AnimatePresence, motion, useMotionValue, useSpring, useTransform } from "motion/react";
 
 interface LocationMapProps {
